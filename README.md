@@ -18,6 +18,10 @@
 
 ---
 
+# Contributing
+
+Go [here](https://crypture.netlify.app/community/contributing/)
+
 # Live Site
 
-[Link]()
+[Link](https://crypture.netlify.app)
