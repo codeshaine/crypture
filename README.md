@@ -1,10 +1,8 @@
-# Cryptic
+# [Cryptic](https://crypture.netlify.app) - Docs for Cryptography
 
 **Cryptic** is a documentation site built with [Astro Starlight](https://starlight.astro.build), designed to help engineers understand and apply cryptography concepts with clarity and practicality.
 
 > Learn cryptography with real-world code. Go from theory to implementation with guides written by and for developers.
-
----
 
 ## Topics (demo)
 
@@ -16,12 +14,6 @@
 - Practical cryptography in backend systems
 - Web3 & Blockchain crypto fundamentals
 
----
-
 # Contributing
 
 Go [here](https://crypture.netlify.app/community/contributing/)
-
-# Live Site
-
-[Link](https://crypture.netlify.app)

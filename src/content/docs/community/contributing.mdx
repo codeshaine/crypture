@@ -1,5 +1,5 @@
 ---
-title: Contributing
+title: Contribution Guide
 description: A guide to contribute this project
 
 ---
@@ -28,31 +28,37 @@ feel free to skip this if you already know how to setup project locally and know
 2. Clone your fork
 3. Execute the command
 
-   For installing proejct depedency
 
-   ```
-   pnpm install
-   ```
-
-   Running project
-
-   ```
-   pnpm run dev
+   ```bash
+   pnpm install  #installing dependency
    ```
 
-   Building project
 
-   ```
-   pnpm run build
+   ```bash
+   pnpm run dev  #running project
    ```
 
-4. Make your own branch
+
+   ```bash
+   pnpm run build  #building project
+   ```
+4. You can either create a new issue and comment that you're working on it, or reply to an existing issue to indicate that you're taking it up. This helps avoid duplicate work by other contributors.
+5. Make your own branch
+   
    Example:
+   ```bash
+   git checkout -b <username>/<feature> 
    ```
-   git checkout -b <username>/<feature>
+6. Commit your changes and push it to forked repo
+  
+   Example:
+
+   ```bash
+   git commit -m <your message>
+   git push <remote> <branch>
    ```
-5. Commit your changes and push it to forked repo
-6. Make a PR
+
+7. Make a PR
 </Steps>
 ---
 
