@@ -1,0 +1,37 @@
+---
+title: Cryptography Concepts
+description: A brief introduction to cryptography concepts
+---
+
+There are mainly three types of concpets come inside Cryptography those are Encryption, Hashing and Digital Signatures (well there might be more but these are the most important). well of course these have sub-concepts. we will explore it one by one.
+```
+                      ┌────────────────────┐
+                      │   Cryptography     │
+                      └────────┬───────────┘
+                               │
+      ┌────────────────────────┼────────────────────────┐
+      │                        │                        │
+┌─────▼─────┐          ┌───────▼────────┐        ┌──────▼────────────┐
+│ Encryption│          │ Hash Functions │        │ Digital Signatures│
+└─────┬─────┘          └────────────────┘        └───────────────────┘
+      │
+      └────────────┬───────────────┐
+                   │               │
+         ┌─────────▼────────┐ ┌────▼────────────┐
+         │ Symmetric Key    │ │ Asymmetric Key  │
+         └─────────┬────────┘ └─────────────────┘
+                   │
+      ┌────────────┼────────────┐
+      │                         │
+┌─────▼────────┐       ┌────────▼──────┐
+│ Block Ciphers│       │ Stream Ciphers│
+└──────────────┘       └───────────────┘
+
+```
+
+## Quick Definition:
+- **Encryption**: is the process of converting plaintext data into an unreadable format (ciphertext) using an algorithm and a cryptographic key, such that only authorized parties with the correct key can reverse (decrypt) it.
+
+- **Hashing**: takes an input (or message) and produces a fixed-size string of bytes (hash or digest), designed to be deterministic, collision-resistant, pre-image resistant, and efficient.
+
+- **Digital Signatures**: is a  cryptographic technique that allows someone to prove the authenticity and integrity of a message or document using a private key, which can then be verified by others using the corresponding public key.

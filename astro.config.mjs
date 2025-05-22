@@ -10,12 +10,12 @@ export default defineConfig({
   },
   integrations: [
     starlight({
-      title: "Crypture",
+      title: "Drakai",
       social: [
         {
           icon: "github",
           label: "GitHub",
-          href: "https://github.com/codeshaine/Crypture",
+          href: "https://github.com/codeshaine/drakai",
         },
       ],
       sidebar: [
@@ -24,6 +24,7 @@ export default defineConfig({
           items: [
             // each item here is one entry in the navigation menu.
             { label: "Introduction", slug: "cryptography/intro" },
+            { label: "Cryptgraphy Concepts", slug: "cryptography/concepts" },
           ],
         },
         {
