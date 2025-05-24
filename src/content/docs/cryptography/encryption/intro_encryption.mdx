@@ -1,0 +1,14 @@
+---
+title: Introduction to Encryption
+description: learn about the basics of encryption.
+---
+import { Aside } from '@astrojs/starlight/components';
+
+Encryption is the process of converting a readable message (plaintext) into an unreadable format (ciphertext) using a cryptographic algorithm. This ensures that only the intended recipient, who has the correct decryption key, can convert the ciphertext back into the original message.
+
+For example you want to send Message `Hi`  to a friend. That message is converted into to ciphertext for example `S#a` using a secret key `secret`. so when you have the secret key you can convert the ciphertext into original text. Ceaser cipher is also great example for Encryption.
+
+This is one type of Encryption where we need a shared secret key between sender and reciever. This is called Symmetric Encryption. If we observe carefully there is a problem in this Approach. The exchange of key between parties. Internet is a unsecure channel, so everyone might be seeing what you guys are sharing inbetween, even your exchange of secret keys too. If somebody else get this key then it would be useless to have encryption in first place right? Inorder to address this problem we have another type of Encryption which works on the basis of public and private keys. This is called as Assymetric Encryption.
+
+
+<Aside type="note">Public and Private Key Concepts is used for more then Encryption. so we will learn about this even after Encryption chapter</Aside>

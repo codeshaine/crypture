@@ -24,8 +24,25 @@ export default defineConfig({
           items: [
             // each item here is one entry in the navigation menu.
             { label: "Introduction", slug: "cryptography/intro" },
-            { label: "Cryptgraphy Concepts", slug: "cryptography/concepts" },
+            { label: "Cryptography Concepts", slug: "cryptography/concepts" },
+            {
+              label: "Encryption",
+              items: [
+                {
+                  label: "Introduction to Encryption",
+                  slug: "cryptography/encryption/intro_encryption",
+                },
+                {
+                  label: "Difference of Encryption and Encoding",
+                  slug: "cryptography/encryption/diff_btw_encryption_encoding",
+                },
+              ],
+            },
           ],
+        },
+        {
+          label: "Jorgons",
+          items: [{ label: "Cryptograhy", slug: "jorgons/cryptograhpy" }],
         },
         {
           label: "Community",
